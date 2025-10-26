@@ -8,8 +8,8 @@ echo ==========================================
 echo.
 
 REM 设置环境变量
-set "DASHSCOPE_API_KEY=sk-9bf124f946124600b9d70824998dc2a2"
-set "AMAP_API_KEY=95fd23e5ff3e8d97d46b5c07f5077a4e"
+set "DASHSCOPE_API_KEY=sk-xxx"
+set "AMAP_API_KEY=xxx"
 set "QWEN_MODEL=qwen-max"
 set "SPEECH_RECOGNITION_LANGUAGE=zh-CN"
 set "SPEECH_TIMEOUT=5"
@@ -17,8 +17,8 @@ set "NAVIGATION_MODE=browser"
 
 REM 科大讯飞语音识别配置（暂时使用默认值，需要用户配置）
 set "XFYUN_APP_ID=f5df0409"
-set "XFYUN_API_SECRET=YTgwNDFmYzc2MmVjMDQ0NDQ0OWQyNmJm"
-set "XFYUN_API_KEY=654d10ef61d2357133a93d84e6278628"
+set "XFYUN_API_SECRET=xxx"
+set "XFYUN_API_KEY=xxx"
 set "USE_XFYUN_ASR=true"
 
 
@@ -41,4 +41,5 @@ echo.
 echo ==========================================
 echo 程序已退出
 echo ==========================================
+
 pause
