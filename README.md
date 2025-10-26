@@ -196,5 +196,6 @@ MIT License
 ## 联系方式
 
 如有问题，请通过以下方式联系：
-- 邮箱: your.email@example.com
+- 邮箱: qinxiuke@qiniu.com
+
 - GitHub Issues: [项目Issues页面]
