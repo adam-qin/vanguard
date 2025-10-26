@@ -21,7 +21,7 @@ class BrowserNavigator:
                 'output': 'json'
             }
             
-            response = requests.get(self.geocode_api, params=params, timeout=10)
+            response = requests.get(self.geocode_api, params=params, timeout=3)
             data = response.json()
             
             if data['status'] == '1' and data['geocodes']:
