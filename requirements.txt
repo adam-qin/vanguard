@@ -1,9 +1,19 @@
-SpeechRecognition>=3.8.0
-edge-tts>=6.1.0
-pygame>=2.6.0
-pywin32>=308
-dashscope>=1.17.0
+# 核心依赖 (必需)
 requests>=2.31.0
-pyaudio>=0.2.11
-urllib3>=2.0.0
+dashscope>=1.17.0
+SpeechRecognition>=3.8.0
 websocket-client>=1.0.0
+python-dotenv>=1.0.0
+
+# Windows特定依赖
+pywin32>=308
+
+# 音频功能依赖 (可选)
+pygame>=2.6.0
+edge-tts>=6.1.0
+pyaudio>=0.2.11
+
+# 注意：
+# - urllib3 已包含在 requests 中，无需单独安装
+# - pyaudio 在某些系统上可能需要额外的系统依赖
+# - 如果不需要语音功能，可以跳过 pygame, edge-tts, pyaudio
